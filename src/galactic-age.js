@@ -1,6 +1,9 @@
+import { Planets } from './../src/planets.js'
+
 export class User {
   constructor (age, lifeEx) {
-    this.age = 30;
-    this.lifeEx = 75;
+    this.age = age;
+    this.lifeEx = lifeEx;
+    this.planetAge = []
   }
 }

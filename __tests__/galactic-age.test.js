@@ -6,7 +6,7 @@ describe('user', () => {
   let reusableUser;
 
   beforeEach(() => {
-    reusableUser = new User ();
+    reusableUser = new User (30, 75);
   });
     test('should show beforeEach working for User class', () => {
   });
@@ -17,3 +17,15 @@ describe('user', () => {
     expect(reusableUser.lifeEx).toBe(75)
   });
 });
+
+// describe('calculation', () => {
+
+//   let reusableCalc;
+
+//   beforeEach(() => {
+//     reusableCalc = new User;
+//   });
+//   test('should pull this merc', () => {
+//     expect(reusableCalc.thisMercury).toBe(125)
+//   });
+// });

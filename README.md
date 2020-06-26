@@ -11,11 +11,11 @@ _A human year, our measure of age, is based on the Earth's orbit of 365 days aro
 ### Specs
 | Spec | Input | Output | Check |
 | :---------- | :---------- | :---------- | :-----------: |
-| The program should create a class for the user. | <strong>input:</strong>| <strong>output:</strong> N/A | [x] |
-| The program should take an integer number as "age" (based on solar Earth years) and save it to the user class. | <strong>input:</strong> 30 | <strong>output:</strong> N/A | [x] |
-| The program should take ano integer value for "life expectancy"(based on solar Earth years) and save it to the user class. | <strong>input:</strong> 75 | <strong>output:</strong> N/A | [x] |
-| The program should create a planet class to store the constant of each planet as a relation of solar orbits to earth. | <strong>input:</strong> 88/365 = .24 (Mercury) | <strong>output:</strong> N/A | [ ] |
-| The program should calculate the user age as a conversion for each planet in the planet class. | <strong>input:</strong> Mercury age | <strong>output:</strong> (30/.24) = 125 | [ ] |
+| The program should create a class for the user. | <strong>input:</strong>| <strong>output:</strong> N/A | [X] |
+| The program should take an integer number as "age" (based on solar Earth years) and save it to the user class. | <strong>input:</strong> 30 | <strong>output:</strong> N/A | [X] |
+| The program should take ano integer value for "life expectancy"(based on solar Earth years) and save it to the user class. | <strong>input:</strong> 75 | <strong>output:</strong> N/A | [X] |
+| The program should create a planet class to store the constant of each planet as a relation of solar orbits to earth. | <strong>input:</strong> 88/365 = .24 (Mercury) | <strong>output:</strong> N/A | [X] |
+| The program should calculate the user age as a conversion for each planet in the planet class. | <strong>input:</strong> Mercury age | <strong>output:</strong> (30/.24) = 125 | [] |
 | The program should calculate how many years a person has left (+integer) or has over-lived (-integer) on the calculation of input "life expectancy" - calculated "[planet] years". | <strong>input:</strong> 75 | <strong>output:</strong> 75 - 125 = -50 (Mercury) //or// 75 - 2.5 = 72.5 (Jupiter) | [ ] |
 
 <!-- | When the user inputs their age based on a birthday, the program should calculate for number of days they been alive. | <strong>input:</strong> Nov. 25 1989 | <strong>output:</strong> "On Earth you are 30 years or 11, 171 days." | 

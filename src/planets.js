@@ -1,6 +1,11 @@
-export class Planet {
-  constructor (mercury) {
-  this.mercury = .24
-  this.venus = .62
+export class Planets {
+  constructor (mercury, venus, mars, jupiter, saturn, uranus, neptune) {
+    this.mercury = mercury
+    this.venus = venus
+    this.mars = mars
+    this.jupiter = jupiter
+    this.saturn = saturn
+    this.uranus = uranus
+    this.neptune = neptune
   }
 }
