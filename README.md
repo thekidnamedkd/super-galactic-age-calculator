@@ -11,9 +11,13 @@ _A human year, our measure of age, is based on the Earth's orbit of 365 days aro
 ### Specs
 | Spec | Input | Output |
 | :---------- | :---------- | :---------- |
-| When the user inputs their age based on a birthday, the program should calculate for number of days they been alive | <strong>input:</strong> Nov. 25 1989 | <strong>output:</strong> "On Earth you are 30 years or 11, 171 days." | 
+| The program should take an integer number as "earth years" and save it to a class. | <strong>input:</strong> 30 | <strong>output:</strong> N/A | 
+| The program should have a preloaded calculation of age for the alotted planets in corresponding years by a co-efficient per each planet as "[planet] years". | <strong>input:</strong> 30 | <strong>output:</strong> (30/.24) = 125 |
+| The program should take another integer value for "life expectancy" (based on solar Earth years) and calculate how many years a person has left (+integer) or has over-lived (-integer) on the calculation of "life expectancy" - calculated "[planet] years" . | <strong>input:</strong> 75 | <strong>output:</strong> 75 - 125 = -50 (Mercury). 75 - 2.5 = 72.5 (Jupiter) |
+
+<!-- | When the user inputs their age based on a birthday, the program should calculate for number of days they been alive. | <strong>input:</strong> Nov. 25 1989 | <strong>output:</strong> "On Earth you are 30 years or 11, 171 days." | 
 | The program should save the number of days from the input to an object for the user, then calculate an age for the alotted planets in corresponding years. | <strong>input:</strong> Nov. 25 1989 | <strong>output:</strong> "On Mercury you are... X years" |
-| When the user inputs their average life expectancy (based on solar Earth years) in addition to their birthday, the program should calculate how many years a person has left or has over lived on other planets solar years. | <strong>input:</strong> 75 years | <strong>output:</strong> On Mercury you have outlived your life expectancy by 52 years. On Jupiter you are expected to live another 72 years |
+| When the user inputs their average life expectancy (based on solar Earth years) in addition to their birthday, the program should calculate how many years a person has left or has over lived on other planets solar years. | <strong>input:</strong> 75 years | <strong>output:</strong> On Mercury you have outlived your life expectancy by 52 years. On Jupiter you are expected to live another 72 years | -->
 
 
 ## Setup/Installation Requirements
