@@ -10,6 +10,6 @@ describe('user', () => {
   test('should show beforeEach working', () => {
 });
   test('should show User contain property for age', () => {
-    expect(reusableUser.age).toBe(age)
+    expect(reusableUser.age).toBe(30)
 });
 });
