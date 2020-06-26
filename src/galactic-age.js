@@ -1,5 +1,5 @@
 export class User {
-  constructor (age, lifeEx) {
+  constructor (age) {
     this.age = 30;
 }
 }

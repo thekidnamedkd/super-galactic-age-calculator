@@ -12,4 +12,7 @@ describe('user', () => {
   test('should show User contain property for age', () => {
     expect(reusableUser.age).toBe(30)
 });
+  test('should show User contain property for life expectancy', () => {
+  expect(reusableUser.lifeEx).toBe(75)
+});
 });
