@@ -12,4 +12,7 @@ describe('planet', () => {
   test('should show Planet class with mercury property', () => {
     expect(reusablePlanet.mercury).toBe(.24)
   });
+  test('should show Planet class with venus property', () => {
+    expect(reusablePlanet.venus).toBe(.62)
+  });
 });
