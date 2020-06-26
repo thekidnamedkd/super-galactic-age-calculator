@@ -10,6 +10,6 @@ describe('planet', () => {
   test('should show beforeEach working for Planet class', () => {
   });
   test('should show Planet class with mercury property', () => {
-    expect(reusablePlanet.mercury).toEqual(.24)
+    expect(reusablePlanet.mercury).toBe(.24)
   });
 });
