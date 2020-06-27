@@ -14,18 +14,18 @@ describe('user', () => {
       expect(reusableUser.age).toBe(30)
   });
     test('should show User contain property for life expectancy', () => {
-    expect(reusableUser.lifeEx).toBe(75)
+      expect(reusableUser.lifeEx).toBe(75)
   });
 });
 
-// describe('calculation', () => {
+describe('calculation', () => {
 
-//   let reusableCalc;
+  let reusableCalc;
 
-//   beforeEach(() => {
-//     reusableCalc = new User;
-//   });
-//   test('should pull this merc', () => {
-//     expect(reusableCalc.thisMercury).toBe(125)
-//   });
-// });
+  beforeEach(() => {
+    reusableCalc = new User (30, 75);
+  });
+    test('should calculate age divided by the constant of mercury', () => {
+      expect(calcMercAge()).toBe(125);
+  });
+});
