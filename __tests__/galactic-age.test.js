@@ -35,16 +35,16 @@ describe('planet age calculation', () => {
     expect(reusableCalc.calcEarthAge(30)).toContain(30.00);
   });
     test('should calculate age divided by the constant of mars', () => {
-    expect(reusableCalc.calcMarsAge(30)).toContain(15.95);
+    expect(reusableCalc.calcMarsAge(30)).toContain(15.96);
   });
     test('should calculate age divided by the constant of jupiter', () => {
-    expect(reusableCalc.calcJupiterAge(30)).toContain(2.52);
+    expect(reusableCalc.calcJupiterAge(30)).toContain(2.53);
   });
     test('should calculate age divided by the constant of saturn', () => {
-    expect(reusableCalc.calcSaturnAge(30)).toContain(1.01);
+    expect(reusableCalc.calcSaturnAge(30)).toContain(1.02);
   });
     test('should calculate age divided by the constant of uranus', () => {
-    expect(reusableCalc.calcUranusAge(30)).toContain(0.35);
+    expect(reusableCalc.calcUranusAge(30)).toContain(0.36);
   });
     test('should calculate age divided by the constant of neptune', () => {
     expect(reusableCalc.calcNeptuneAge(30)).toContain(0.18);
