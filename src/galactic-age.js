@@ -39,4 +39,8 @@ calcNeptuneAge () {
   let neptuneAge = parseFloat(this.age / 164.8).toFixed(2)
   return neptuneAge;
   }
+
+calcLifeExpect () {
+  
+  }
 }
