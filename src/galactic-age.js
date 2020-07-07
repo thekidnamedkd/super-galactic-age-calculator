@@ -12,4 +12,8 @@ calcMercuryAge() {
   let mercuryAge  = (Math.floor(this.age / .24));
   return Math.round(mercuryAge)
   }
+
+calcVenusAge() {
+  
+  }
 }
