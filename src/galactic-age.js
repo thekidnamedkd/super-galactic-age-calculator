@@ -14,6 +14,7 @@ calcMercuryAge() {
   }
 
 calcVenusAge() {
-  
+  let venusAge  = (Math.floor(this.age / .62));
+  return Math.round(venusAge)
   }
 }
