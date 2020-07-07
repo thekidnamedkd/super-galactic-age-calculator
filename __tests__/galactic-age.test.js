@@ -25,10 +25,7 @@ describe('calculation', () => {
   beforeEach(() => {
     reusableCalc = new User (30, 75);
   });
-    test('should calculate age divided by the constant of mercury', () => {
+    test('should calculate age divided by the constant of mercury' , () => {
       expect(reusableCalc.calcMercuryAge(30)).toEqual(125);
-  });
-  test('should calculate age divided by the constant of venus', () => {
-    expect(reusableCalc.calcVenusAge(30)).toEqual(48);
   });
 });

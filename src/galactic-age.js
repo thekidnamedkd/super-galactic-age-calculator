@@ -7,14 +7,9 @@ export class User {
     this.planetExpectancy = []
   }
   
-// 'should calculate age divided by the constant of every planet ratio' 
+// 'should calculate age divided by the constant of mercury' 
 calcMercuryAge() {
-    let mercuryAge  = (Math.floor(this.age / .24));
-    return Math.round(mercuryAge);
-    }
-
-  calcVenusAge() {
-    let venusAge  = (Math.floor(this.age / .62));
-    return Math.round(venusAge);
+  let mercuryAge  = (Math.floor(this.age / .24));
+  return Math.round(mercuryAge)
   }
-  }
+}
