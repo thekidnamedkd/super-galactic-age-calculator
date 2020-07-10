@@ -26,7 +26,7 @@ describe('planet age calculation', () => {
     reusableCalc = new User (30, 75);
   });
     test('should calculate age divided by the constant of mercury' , () => {
-    expect(reusableCalc.mercuryAge).toEqual(125.00);
+    expect(reusableCalc.mercuryAge).toBe(125.00);
   });
   test('should calculate age divided by the constant of mercury', () => {
     expect(reusableCalc.calcVenusAge(30)).toContain(48.00);
@@ -50,15 +50,15 @@ describe('planet age calculation', () => {
     expect(reusableCalc.calcNeptuneAge(30)).toContain(0.18);
   });
 
-describe('planet life expectancy', () => {
+// describe('planet life expectancy', () => {
 
-  let reusableLife;
+//   let reusableLife;
 
-  beforeEach(() => {
-    reusableLife = new User (30, 75);
-  });
-    test('should calculate life expectancy from earth against age on mercury' , () => {
-    expect(reusableLife.calcLifeExpect(75)).toContain(50.00);
-  });
-  });
+//   beforeEach(() => {
+//     reusableLife = new User (30, 75);
+//   });
+//     test('should calculate life expectancy from earth against age on mercury' , () => {
+//     expect(reusableLife.calcLifeExpect(75)).toContain(50.00);
+//   });
+//   });
 })

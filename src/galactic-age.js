@@ -6,8 +6,7 @@ export class User {
   
 // 'should calculate age divided by the constant of mercury' 
 calcMercuryAge() {
-  let mercuryAge = parseFloat(this.age / .24).toFixed(2);
-  return mercuryAge;
+  
   }
 
 calcVenusAge() {
@@ -15,7 +14,7 @@ calcVenusAge() {
   return venusAge;
   }
 calcEarthAge() {
-  let earthAge =parseFloat(this.age / 1).toFixed(2)
+  let earthAge = parseFloat(this.age / 1).toFixed(2)
   return earthAge;
   }
 calcMarsAge() {
