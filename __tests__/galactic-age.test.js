@@ -28,7 +28,7 @@ describe('planet age calculation', () => {
     test('should calculate age divided by the constant of mercury' , () => {
     expect(reusableCalc.mercuryAge).toBe("125.00");
   });
-  test('should calculate age divided by the constant of mercury', () => {
+  test('should calculate age divided by the constant of venus', () => {
     expect(reusableCalc.venusAge).toBe("48.39");
   });
     test('should calculate age divided by the constant of earth', () => {
@@ -92,9 +92,9 @@ describe('loop for refactor of planet ages', () => {
     reusableLife = new User (30, 75);
   });
     test('should calculate life expectancy from earth against age on mercury' , () => {
-    expect(reusableLife.calcPlanetAges()).toContain(125.00);
+    expect(reusableLife.calcPlanetAges([0])).toBe(125.00);
   });
-    test('should calculate life expectancy from earth against age on ' , () => {
-    expect(reusableLife.calcPlanetAges()).toContain(48.39);
+    test('should calculate life expectancy from earth against age on venus' , () => {
+    expect(reusableLife.calcPlanetAges([1])).toBe(48.39);
   });
 });
