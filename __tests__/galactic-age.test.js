@@ -29,7 +29,7 @@ describe('planet age calculation', () => {
     expect(reusableCalc.mercuryAge).toBe("125.00");
   });
   test('should calculate age divided by the constant of mercury', () => {
-    expect(reusableCalc.venusAge).toBe("48.00");
+    expect(reusableCalc.venusAge).toBe("48.39");
   });
     test('should calculate age divided by the constant of earth', () => {
     expect(reusableCalc.earthAge).toBe("30.00");
@@ -49,6 +49,7 @@ describe('planet age calculation', () => {
     test('should calculate age divided by the constant of neptune', () => {
     expect(reusableCalc.neptuneAge).toBe("0.18");
   });
+});
 
 // describe('planet life expectancy', () => {
 
@@ -58,7 +59,29 @@ describe('planet age calculation', () => {
 //     reusableLife = new User (30, 75);
 //   });
 //     test('should calculate life expectancy from earth against age on mercury' , () => {
-//     expect(reusableLife.calcLifeExpect(75)).toContain(50.00);
-//   });
-//   });
-})
+//     expect(reusableLife.mercuryLifeEx).toBe(-50)
+//     });
+// });
+  //   test('should calculate life expectancy from earth against age on venus' , () => {
+  //   expect(reusableLife.venusLifeEx).toBe(26.61)
+  // });
+  //   test('should calculate life expectancy from earth against age on earth' , () => {
+  //   expect(reusableLife.earthLifeEx).toBe(45)
+  // });
+  //   test('should calculate life expectancy from earth against age on mars' , () => {
+  //   expect(reusableLife.marsLifeEx).toBe(59.04)
+  // });
+  //   test('should calculate life expectancy from earth against age on jupiter' , () => {
+  //   expect(reusableLife.jupiterLifeEx).toBe(72.47)
+  // });
+  //   test('should calculate life expectancy from earth against age on saturn' , () => {
+  //   expect(reusableLife.saturnLifeEx).toBe(73.98)
+  // });
+  //   test('should calculate life expectancy from earth against age on uranus' , () => {
+  //   expect(reusableLife.uranusLifeEx).toBe(74.64)
+  // });
+  //   test('should calculate life expectancy from earth against age on neptune' , () => {
+  //   expect(reusableLife.neptuneLifeEx).toBe(74.82)
+  // });
+// })
+// });
