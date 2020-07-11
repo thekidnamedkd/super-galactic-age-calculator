@@ -21,6 +21,8 @@ export class User {
     this.saturnLifeEx = parseFloat(this.lifeEx - this.saturnAge);
     this.uranusLifeEx = parseFloat(this.lifeEx - this.uranusAge);
     this.neptuneLifeEx = parseFloat(this.lifeEx - this.neptuneAge);
+    //save loop to property to target by index
+    this.planetAgesReturned = this.calcPlanetAges ();
   }
 
   calcPlanetAges () {
