@@ -3,6 +3,7 @@ export class User {
     this.age = age;
     this.lifeEx = lifeEx;
     this.planetConst = [.24, .62, 1, 1.88, 11.86, 29.45, 84.45, 164.8]
+    this.planetName = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"]
     this.agesReturned = this.calcPlanetAges ();
     this.exesReturned = this.calcPlanetExes ();
   }
