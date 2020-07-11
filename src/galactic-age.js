@@ -19,7 +19,7 @@ export class User {
   calcPlanetExes () {
     let planetExes = [];
     for (let i=0; i<this.agesReturned.length; i++) {
-      planetExes.push(parseFloat((this.lifeEx - this.agesReturned[i])));
+      planetExes.push(parseFloat((this.lifeEx - this.agesReturned[i]).toFixed(2)));
     }
     return planetExes;
   }
