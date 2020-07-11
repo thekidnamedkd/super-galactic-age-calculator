@@ -82,4 +82,16 @@ describe('planet life expectancy', () => {
     test('should calculate life expectancy from earth against age on neptune' , () => {
     expect(reusableLife.neptuneLifeEx).toBe(74.82);
   });
-})
+});
+
+describe('loop for refactor of planet ages', () => {
+
+  let reusableLife;
+
+  beforeEach(() => {
+    reusableLife = new User (30, 75);
+  });
+    test('should calculate life expectancy from earth against age on mercury' , () => {
+    expect(reusableLife.calcPlanetAges()).toBe("125.00");
+  });
+});
