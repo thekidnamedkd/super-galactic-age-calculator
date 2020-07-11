@@ -13,12 +13,12 @@ export class User {
     this.neptuneAge = parseFloat(this.age / 164.8).toFixed(2);
     //planet years to live
     this.mercuryLifeEx = parseFloat(this.lifeEx - this.mercuryAge);
-    // this.venusLifeEx = venusLifeEx
-    // this.earthLifeEx = earthLifeEx
-    // this.marsLifeEx = marsLifeEx
-    // this.jupiterLifeEx = jupiterLifeEx
-    // this.saturanLifeEx = saturanLifeEx
-    // this.uranusLifeEx = uranusLifeEx
-    // this.neptuneLifeEx = neptuneLifeEx
+    // this.venusLifeEx = parseFloat(this.lifeEx - this.venusAge);
+    // this.earthLifeEx = earthLifeEx;
+    // this.marsLifeEx = marsLifeEx;
+    // this.jupiterLifeEx = jupiterLifeEx;
+    // this.saturanLifeEx = saturanLifeEx;
+    // this.uranusLifeEx = uranusLifeEx;
+    // this.neptuneLifeEx = neptuneLifeEx;
   }
 }
