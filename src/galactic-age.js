@@ -2,7 +2,7 @@ export class User {
   constructor (age, lifeEx) {
     this.age = age;
     this.lifeEx = lifeEx;
-    this.planetConst = [.24, .62]
+    this.planetConst = [.24, .62, 1, 1.88, 11.86, 29.45, 84.45, 164.8]
     //planet age calcs
     this.mercuryAge = parseFloat(this.age / .24).toFixed(2);
     this.venusAge = parseFloat(this.age / .62).toFixed(2);

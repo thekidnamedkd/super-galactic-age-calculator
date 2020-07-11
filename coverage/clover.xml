@@ -1,20 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1594423899249" clover="3.2.0">
-  <project timestamp="1594423899249" name="All files">
-    <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1" elements="12" coveredelements="12" complexity="0" loc="11" ncloc="11" packages="1" files="1" classes="1"/>
+<coverage generated="1594438163551" clover="3.2.0">
+  <project timestamp="1594438163551" name="All files">
+    <metrics statements="24" coveredstatements="24" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2" elements="26" coveredelements="26" complexity="0" loc="24" ncloc="24" packages="1" files="1" classes="1"/>
     <file name="galactic-age.js" path="/Users/thekidnamedkd/Desktop/super-galactic-age-calculator/src/galactic-age.js">
-      <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="3" count="11" type="stmt"/>
-      <line num="4" count="11" type="stmt"/>
-      <line num="5" count="11" type="stmt"/>
-      <line num="6" count="11" type="stmt"/>
-      <line num="7" count="11" type="stmt"/>
-      <line num="8" count="11" type="stmt"/>
-      <line num="9" count="11" type="stmt"/>
-      <line num="10" count="11" type="stmt"/>
-      <line num="11" count="11" type="stmt"/>
-      <line num="12" count="11" type="stmt"/>
-      <line num="13" count="11" type="stmt"/>
+      <metrics statements="24" coveredstatements="24" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <line num="3" count="27" type="stmt"/>
+      <line num="4" count="27" type="stmt"/>
+      <line num="5" count="27" type="stmt"/>
+      <line num="7" count="27" type="stmt"/>
+      <line num="8" count="27" type="stmt"/>
+      <line num="9" count="27" type="stmt"/>
+      <line num="10" count="27" type="stmt"/>
+      <line num="11" count="27" type="stmt"/>
+      <line num="12" count="27" type="stmt"/>
+      <line num="13" count="27" type="stmt"/>
+      <line num="14" count="27" type="stmt"/>
+      <line num="16" count="27" type="stmt"/>
+      <line num="17" count="27" type="stmt"/>
+      <line num="18" count="27" type="stmt"/>
+      <line num="19" count="27" type="stmt"/>
+      <line num="20" count="27" type="stmt"/>
+      <line num="21" count="27" type="stmt"/>
+      <line num="22" count="27" type="stmt"/>
+      <line num="23" count="27" type="stmt"/>
+      <line num="25" count="27" type="stmt"/>
+      <line num="29" count="27" type="stmt"/>
+      <line num="30" count="27" type="stmt"/>
+      <line num="31" count="216" type="stmt"/>
+      <line num="33" count="27" type="stmt"/>
     </file>
   </project>
 </coverage>

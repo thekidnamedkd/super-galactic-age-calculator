@@ -97,4 +97,22 @@ describe('loop for refactor of planet ages', () => {
     test('should calculate life expectancy from earth against age on venus' , () => {
     expect(reusableLife.planetAgesReturned[1]).toBe(48.39);
   });
+    test('should calculate life expectancy from earth against age on earth' , () => {
+    expect(reusableLife.planetAgesReturned[2]).toBe(30.00);
+  });
+    test('should calculate life expectancy from earth against age on mars' , () => {
+    expect(reusableLife.planetAgesReturned[3]).toBe(15.96);
+  });
+    test('should calculate life expectancy from earth against age on jupiter' , () => {
+    expect(reusableLife.planetAgesReturned[4]).toBe(2.53);
+  });
+    test('should calculate life expectancy from earth against age on saturn' , () => {
+    expect(reusableLife.planetAgesReturned[5]).toBe(1.02);
+  });
+    test('should calculate life expectancy from earth against age on uranus' , () => {
+    expect(reusableLife.planetAgesReturned[6]).toBe(0.36);
+  });
+    test('should calculate life expectancy from earth against age on neptune' , () => {
+    expect(reusableLife.planetAgesReturned[7]).toBe(0.18);
+  });
 });
