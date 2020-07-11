@@ -23,6 +23,7 @@ export class User {
     this.neptuneLifeEx = parseFloat(this.lifeEx - this.neptuneAge);
     //save loop to property to target by index
     this.agesReturned = this.calcPlanetAges ();
+    this.exesReturned = this.calcPlanetExes ();
   }
 
   calcPlanetAges () {
@@ -31,5 +32,13 @@ export class User {
       planetAges.push(parseFloat((this.age / this.planetConst[i]).toFixed(2)));
     }
     return planetAges;
+  }
+
+  calcPlanetExes () {
+    let planetExes = [];
+    for (let i=0; i<this.agesReturned.length; i++) {
+      planetExes.push(parseFloat((this.lifeEx - this.agesReturned[i])));
+    }
+    return planetExes;
   }
 }
