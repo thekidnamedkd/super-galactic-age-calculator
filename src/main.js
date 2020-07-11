@@ -5,7 +5,8 @@ import $ from "jquery";
 import { User } from './galactic-age.js'
 
 function outputs () {
-  let newUser = new User($("#age").val(), $("#lifeEx").val());
+  let newUser = new User($("#age").val(), $("input:radio[name=gender]:checked").val());
+  console.log(newUser)
   for (let i=0; i<newUser.agesReturned.length; i++) {
     $("#ageList").append(`<li> . . . Your age in <u>${newUser.planetName[i]}</u> years is <u>${newUser.agesReturned[i]}</u>.</li>`)
   }

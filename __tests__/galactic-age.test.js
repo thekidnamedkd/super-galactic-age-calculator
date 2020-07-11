@@ -5,7 +5,7 @@ describe('user', () => {
   let reusableUser;
 
   beforeEach(() => {
-    reusableUser = new User (30, 75);
+    reusableUser = new User (30, "male");
   });
     test('should show beforeEach working for User class', () => {
   });
@@ -13,7 +13,7 @@ describe('user', () => {
       expect(reusableUser.age).toBe(30)
   });
     test('should show User contain property for life expectancy', () => {
-      expect(reusableUser.lifeEx).toBe(75)
+      expect(reusableUser.gender).toBe("male")
   });
 });
 
@@ -22,7 +22,7 @@ describe('loop for refactor of planet ages', () => {
   let reusableAge2;
 
   beforeEach(() => {
-    reusableAge2 = new User (30, 75);
+    reusableAge2 = new User (30, "male");
   });
     test('should calculate life expectancy from earth against age on mercury' , () => {
     expect(reusableAge2.agesReturned[0]).toBe(125.00);
@@ -49,12 +49,13 @@ describe('loop for refactor of planet ages', () => {
     expect(reusableAge2.agesReturned[7]).toBe(0.18);
   });
 });
+
 describe('loop for refactor of planet life expectancies', () => {
 
   let reusableLife2;
 
 beforeEach(() => {
-  reusableLife2 = new User (30, 75);
+  reusableLife2 = new User (30, "male");
   });
     test('should calculate life expectancy from earth against age on mercury' , () => {
     expect(reusableLife2.exesReturned[0]).toBe(-50);
@@ -81,3 +82,15 @@ beforeEach(() => {
     expect(reusableLife2.exesReturned[7]).toBe(74.82);
   });
 });
+
+describe('lifeEx calc via gender input', () => {
+
+  let reusableGender;
+
+beforeEach(() => {
+  reusableGender = new User (30, "male");
+  });
+    test('should calculate life expectancy from earth against age on mercury' , () => {
+    expect(reusableGender.exesReturned[0]).toBe(-50);
+  });
+})

@@ -9,10 +9,16 @@
   <div class="container">
   <h1>SUPER GALACTIC AGE CALCULATOR</h1>
     <form id="intake">
-      <label>How old are you in total years?</label>
-      <input type="number" id="age" min="1" max="125">
-      <label>What do you think your life expectancy is?</label>
-      <input type="number" id="lifeEx" min="1" max="125"><br>
+      <h4>How old are you in total years?</h4>
+      <input type="number" class="form-control" id="age" min="1" max="125">
+      <h4>What gender do you identify as?</h4>
+      <input type="radio" name="gender" value="male">
+          <label>Male</label>
+        <input type="radio" name="gender" value="female">
+          <label>Female</label>
+        <input type="radio" name="gender" value="other">
+          <label>Other</label>
+      <br>
       <button type="submit" class="btn btn-dark">SUBMIT</button>
     </form>
     <br>
