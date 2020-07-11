@@ -11,8 +11,12 @@ export class User {
 
   calcLifeEx () {
     if (this.gender === "male") {
+      this.lifeEx = 70
+    } else if (this.gender === "female") {
       this.lifeEx = 75
-    } 
+    } else if (this.gender === "other") {
+      this.lifeEx = 72.5
+    }
     return this.lifeEx;
   }
 
