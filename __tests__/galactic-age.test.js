@@ -94,4 +94,7 @@ describe('loop for refactor of planet ages', () => {
     test('should calculate life expectancy from earth against age on mercury' , () => {
     expect(reusableLife.calcPlanetAges()).toContain(125.00);
   });
+    test('should calculate life expectancy from earth against age on ' , () => {
+    expect(reusableLife.calcPlanetAges()).toContain(48.39);
+  });
 });
