@@ -86,33 +86,65 @@ describe('planet life expectancy', () => {
 
 describe('loop for refactor of planet ages', () => {
 
-  let reusableLife;
+  let reusableAge2;
 
   beforeEach(() => {
-    reusableLife = new User (30, 75);
+    reusableAge2 = new User (30, 75);
   });
     test('should calculate life expectancy from earth against age on mercury' , () => {
-    expect(reusableLife.planetAgesReturned[0]).toBe(125.00);
+    expect(reusableAge2.agesReturned[0]).toBe(125.00);
   });
     test('should calculate life expectancy from earth against age on venus' , () => {
-    expect(reusableLife.planetAgesReturned[1]).toBe(48.39);
+    expect(reusableAge2.agesReturned[1]).toBe(48.39);
   });
     test('should calculate life expectancy from earth against age on earth' , () => {
-    expect(reusableLife.planetAgesReturned[2]).toBe(30.00);
+    expect(reusableAge2.agesReturned[2]).toBe(30.00);
   });
     test('should calculate life expectancy from earth against age on mars' , () => {
-    expect(reusableLife.planetAgesReturned[3]).toBe(15.96);
+    expect(reusableAge2.agesReturned[3]).toBe(15.96);
   });
     test('should calculate life expectancy from earth against age on jupiter' , () => {
-    expect(reusableLife.planetAgesReturned[4]).toBe(2.53);
+    expect(reusableAge2.agesReturned[4]).toBe(2.53);
   });
     test('should calculate life expectancy from earth against age on saturn' , () => {
-    expect(reusableLife.planetAgesReturned[5]).toBe(1.02);
+    expect(reusableAge2.agesReturned[5]).toBe(1.02);
   });
     test('should calculate life expectancy from earth against age on uranus' , () => {
-    expect(reusableLife.planetAgesReturned[6]).toBe(0.36);
+    expect(reusableAge2.agesReturned[6]).toBe(0.36);
   });
     test('should calculate life expectancy from earth against age on neptune' , () => {
-    expect(reusableLife.planetAgesReturned[7]).toBe(0.18);
+    expect(reusableAge2.agesReturned[7]).toBe(0.18);
+  });
+});
+describe('loop for refactor of planet life expectancies', () => {
+
+  let reusableLife2;
+
+beforeEach(() => {
+  reusableLife2 = new User (30, 75);
+  });
+    test('should calculate life expectancy from earth against age on mercury' , () => {
+    expect(reusableLife2.lifeExesReturned[0]).toBe(-50);
+  });
+    test('should calculate life expectancy from earth against age on venus' , () => {
+    expect(reusableLife2.lifeExesReturned[1]).toBe(26.61);
+  });
+    test('should calculate life expectancy from earth against age on earth' , () => {
+    expect(reusableLife2.lifeExesReturned[2]).toBe(45);
+  });
+    test('should calculate life expectancy from earth against age on mars' , () => {
+    expect(reusableLife2.lifeExesReturned[3]).toBe(59.04);
+  });
+    test('should calculate life expectancy from earth against age on jupiter' , () => {
+    expect(reusableLife2.lifeExesReturned[4]).toBe(72.47);
+  });
+    test('should calculate life expectancy from earth against age on saturn' , () => {
+    expect(reusableLife2.lifeExesReturned[5]).toBe(73.98);
+  });
+    test('should calculate life expectancy from earth against age on uranus' , () => {
+    expect(reusableLife2.lifeExesReturned[6]).toBe(74.64);
+  });
+    test('should calculate life expectancy from earth against age on neptune' , () => {
+    expect(reusableLife2.lifeExesReturned[7]).toBe(74.82);
   });
 });
