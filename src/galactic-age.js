@@ -10,7 +10,10 @@ export class User {
   }
 
   calcLifeEx () {
-
+    if (this.gender === "male") {
+      this.lifeEx = 75
+    } 
+    return this.lifeEx;
   }
 
   calcPlanetAges () {
