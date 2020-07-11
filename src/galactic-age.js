@@ -2,7 +2,7 @@ export class User {
   constructor (age, lifeEx) {
     this.age = age;
     this.lifeEx = lifeEx;
-    this.planetConst = [.24]
+    this.planetConst = [.24, .62]
     //planet age calcs
     this.mercuryAge = parseFloat(this.age / .24).toFixed(2);
     this.venusAge = parseFloat(this.age / .62).toFixed(2);
@@ -22,8 +22,13 @@ export class User {
     this.uranusLifeEx = parseFloat(this.lifeEx - this.uranusAge);
     this.neptuneLifeEx = parseFloat(this.lifeEx - this.neptuneAge);
   }
-  calcPlanetAge (){
-    
+
+  calcPlanetAges () {
+    let planetAges = [];
+    for (let i=0; i<this.planetConst.length; i++) {
+      planetAges.push(parseFloat((this.age / this.planetConst[i]).toFixed(2)));
+    }
+    return planetAges;
   }
 }
 
