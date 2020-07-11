@@ -12,7 +12,7 @@ export class User {
     this.uranusAge = parseFloat(this.age / 84.45).toFixed(2);
     this.neptuneAge = parseFloat(this.age / 164.8).toFixed(2);
     //planet years to live
-    this.mercuryLifeEx = parseFloat(this.lifeEx - this.mercuryAge);
+    this.mercuryLifeEx = this.mercuryLifeEx;
     // this.venusLifeEx = venusLifeEx
     // this.earthLifeEx = earthLifeEx
     // this.marsLifeEx = marsLifeEx

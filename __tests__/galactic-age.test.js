@@ -51,17 +51,17 @@ describe('planet age calculation', () => {
   });
 });
 
-// describe('planet life expectancy', () => {
+describe('planet life expectancy', () => {
 
-//   let reusableLife;
+  let reusableLife;
 
-//   beforeEach(() => {
-//     reusableLife = new User (30, 75);
-//   });
-//     test('should calculate life expectancy from earth against age on mercury' , () => {
-//     expect(reusableLife.mercuryLifeEx).toBe(-50)
-//     });
-// });
+  beforeEach(() => {
+    reusableLife = new User (30, 75);
+  });
+    test('should calculate life expectancy from earth against age on mercury' , () => {
+    expect(reusableLife.mercuryLifeEx).toBe(-50)
+    });
+});
   //   test('should calculate life expectancy from earth against age on venus' , () => {
   //   expect(reusableLife.venusLifeEx).toBe(26.61)
   // });
