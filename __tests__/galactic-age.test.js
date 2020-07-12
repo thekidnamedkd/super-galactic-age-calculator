@@ -85,12 +85,22 @@ beforeEach(() => {
 
 describe('lifeEx calc via gender input', () => {
 
-  let reusableGender;
+  let reusableFemale;
+  let reusableMale;
+  let reusableOther;
 
 beforeEach(() => {
-  reusableGender = new User (30, "female");
+  reusableFemale = new User (30, "female");
+  reusableMale = new User (30, "male");
+  reusableOther = new User (30, "other");
   });
-    test('should calculate life expectancy from earth against age on mercury' , () => {
-    expect(reusableGender.exesReturned[0]).toBe(-50);
+    test('should calculate life expectancy from earth against age on mercury w/ global gender' , () => {
+    expect(reusableFemale.exesReturned[0]).toBe(-50);
+  });
+    test('should calculate life expectancy from earth against age on mercury w/ global gender' , () => {
+    expect(reusableMale.exesReturned[0]).toBe(-55);
+  });
+    test('should calculate life expectancy from earth against age on mercury w/ global gender' , () => {
+    expect(reusableOther.exesReturned[0]).toBe(-52.5);
   });
 })

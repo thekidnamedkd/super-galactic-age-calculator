@@ -2,8 +2,8 @@ export class User {
   constructor (age, gender) {
     this.age = age;
     this.gender = gender;
-    this.planetConst = [.24, .62, 1, 1.88, 11.86, 29.45, 84.45, 164.8]
-    this.planetName = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"]
+    this.planetConst = [.24, .62, 1, 1.88, 11.86, 29.45, 84.45, 164.8];
+    this.planetName = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"];
     this.lifeEx = this.calcLifeEx ();
     this.agesReturned = this.calcPlanetAges ();
     this.exesReturned = this.calcPlanetExes ();
@@ -11,11 +11,11 @@ export class User {
 
   calcLifeEx () {
     if (this.gender === "male") {
-      this.lifeEx = 70
+      this.lifeEx = 70;
     } else if (this.gender === "female") {
-      this.lifeEx = 75
+      this.lifeEx = 75;
     } else if (this.gender === "other") {
-      this.lifeEx = 72.5
+      this.lifeEx = 72.5;
     }
     return this.lifeEx;
   }

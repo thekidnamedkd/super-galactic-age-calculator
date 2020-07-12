@@ -28,11 +28,18 @@ ul {
 list-style: "🚀";
 }
 
+u {
+  font-size: x-large;
+  font-style: italic;
+  color: orange;
+}
+
 li {
   line-height: 2em;
-  color: orange;
+  color: rgba(255, 166, 0, 0.800);
   text-shadow: black 1px 1px;
 }
+
 #output {
   display: none;
 }
