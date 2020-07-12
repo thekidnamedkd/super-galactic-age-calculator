@@ -16,24 +16,23 @@ _A human year, our measure of age, is based on the Earth's orbit of 365 days aro
 | The program should take ano integer value for "life expectancy"(based on solar Earth years) and save it to the user class. | <strong>input:</strong> 75 | <strong>output:</strong> N/A | [X] |
 | The program should create a planet class to store the constant of each planet as a relation of solar orbits to earth. | <strong>input:</strong> 88/365 = .24 (Mercury) | <strong>output:</strong> N/A | [X] |
 | The program should calculate the user age as a conversion for each planet in the planet class. | <strong>input:</strong> Mercury age | <strong>output:</strong> (30/.24) = 125 | [X] |
-| The program should calculate how many years a person has left (+integer) or has over-lived (-integer) on the calculation of input "life expectancy" - calculated "[planet] years". | <strong>input:</strong> 75 | <strong>output:</strong> 75 - 125 = -50 (Mercury) //or// 75 - 2.5 = 72.5 (Jupiter) | [ ] |
-
-<!-- | When the user inputs their age based on a birthday, the program should calculate for number of days they been alive. | <strong>input:</strong> Nov. 25 1989 | <strong>output:</strong> "On Earth you are 30 years or 11, 171 days." | 
-| The program should save the number of days from the input to an object for the user, then calculate an age for the alotted planets in corresponding years. | <strong>input:</strong> Nov. 25 1989 | <strong>output:</strong> "On Mercury you are... X years" |
-| When the user inputs their average life expectancy (based on solar Earth years) in addition to their birthday, the program should calculate how many years a person has left or has over lived on other planets solar years. | <strong>input:</strong> 75 years | <strong>output:</strong> On Mercury you have outlived your life expectancy by 52 years. On Jupiter you are expected to live another 72 years | -->
-
+| The program should calculate how many years a person has left (+integer) or has over-lived (-integer) on the calculation of input "life expectancy" - calculated "[planet] years". | <strong>input:</strong> 75 | <strong>output:</strong> 75 - 125 = -50 (Mercury) //or// 75 - 2.5 = 72.5 (Jupiter) | [X] |
 
 ## Setup/Installation Requirements
 
 * _Visit the following link: https://github.com/thekidnamedkd/super-galactic-age-calculator_
-* _Clone the repository to your desired directory._
-* _OR_
-* _Visit here: _
+* _Clone the repository to your desired directory_
+* _Open the repository in your desired IDE_
+* _Open a new terminal and run $ npm install_
+* _Open a new terminal and run $ npm run build_
+* _Open a new terminal and run $ npm run start_
+* _Wait for default browser to load and follow onscreen instructions_
+
 
 
 ## Known Bugs
 
-_No known bugs at this time._
+_Due to the append method in the for loop of the Main.JS, the results will print to the DOM consecutively without reload._
 
 ## Support and contact details
 
