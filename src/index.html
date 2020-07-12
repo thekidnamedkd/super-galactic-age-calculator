@@ -12,16 +12,15 @@
       <h4>How old are you in total years?</h4>
       <input type="number" class="form-control" id="age" min="1" max="125" required>
       <h4>What gender do you identify as?</h4>
+      <h6>(We calculate life expenctancy based on global averages from the <a href="https://www.who.int/gho/mortality_burden_disease/life_tables/situation_trends_text/en/#:~:text=Global%20life%20expectancy%20at%20birth,men%20all%20around%20the%20world.">World Health Organization</a>.)</h6>
       <input type="radio" name="gender" value="male" required>
           <label>Male</label>
         <input type="radio" name="gender" value="female" required>
           <label>Female</label>
         <input type="radio" name="gender" value="other" required>
-          <label>Other</label>
-      <br>
+          <label>Other</label><br>
       <button type="submit" class="btn btn-dark">SUBMIT</button>
-    </form>
-    <br>
+    </form><br>
     <div id="output">
       <h2>Galactic Ages:</h2>
       <ul id="ageList">
